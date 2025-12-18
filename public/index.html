@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="fade-in">
+
+<nav>
+  <a href="/">Home</a>
+  <a href="/forecast.html">Forecast</a>
+  <a href="/about.html">About</a>
+</nav>
+
+<div class="app-card">
+  <h1>Weather Tracker</h1>
+  <p class="subtitle">Check current weather conditions and daily risk indicators.</p>
+
+  <div class="search-row">
+    <input id="location" placeholder="Enter city">
+    <button onclick="loadWeather()">Check Weather</button>
+  </div>
+
+  <div id="output"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
