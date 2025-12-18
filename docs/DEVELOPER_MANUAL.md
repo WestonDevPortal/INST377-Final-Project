@@ -7,9 +7,9 @@
 3. Create `.env` file
 
 ## Environment Variables
-WEATHERSTACK_API_KEY=your_key
-SUPABASE_URL=your_url
-SUPABASE_ANON_KEY=your_key
+WEATHERSTACK_API_KEY=519e8622bc7f35d1349ee1bf592f5a1e
+SUPABASE_URL=https://supabase.com/dashboard/project/fonpfsovehrjbwvnryfz
+SUPABASE_ANON_KEY=t4xw75Fml7kbfOpF
 
 ## Run
 npm start
